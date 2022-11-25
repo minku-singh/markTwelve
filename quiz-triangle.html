@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Quiz on Triangles</title>
+</head>
+<body>
+
+    <nav>
+        <h1>FUN WITH TRIANGLES</h1>
+        <ul>
+            <a href="#"><li>Is Triangle?</li></a>
+            <a href="#" class="active"><li>Quiz</li></a>
+            <a href="#"><li>Hypotenuse</li></a>
+            <a href="#"><li>Area of triangle</li></a>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Quiz on Triangles</h1>
+        <h4>For each correct answer, you'll get 1 point!</h4>
+    
+        <form class="quiz-container">
+            <div class="question-container">
+                <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+                <label for="option-1"><input type="radio" name="question-1" id="option-1" value="45°">45°</label>
+                <label for="option-2"><input type="radio" name="question-1" id="option-2" value="90°">90°</label>
+                <label for="option-3"><input type="radio" name="question-1" id="option-3" value="60°">60°</label>
+            </div>
+            <div class="question-container">
+                <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+                <label for="option-1"><input type="radio" name="question-2" id="option-1" value="obtuse">obtuse</label>
+                <label for="option-2"><input type="radio" name="question-2" id="option-2" value="acute">acute</label>
+                <label for="option-3"><input type="radio" name="question-2" id="option-3" value="right angled">right angled</label>
+            </div>
+            <div class="question-container">
+                <p>A triangle can have</p>
+                <label for="option-1"><input type="radio" name="question-3" id="option-1" value="one right angle">one right angle</label>
+                <label for="option-2"><input type="radio" name="question-3" id="option-2" value="two right angles">two right angles</label>
+            </div>
+            <div class="question-container">
+                <p>Which of the following can form a right angled triangle?</p>
+                <label for="option-1"><input type="radio" name="question-4" id="option-1" value="14, 15, 26">14, 15, 26</label>
+                <label for="option-2"><input type="radio" name="question-4" id="option-2" value="12, 16, 20">12, 16, 20</label>
+            </div>
+            <div class="question-container">
+                <p>Which of the following triangles are always similar?</p>
+                <label for="option-1"><input type="radio" name="question-5" id="option-1" value="Equilateral triangle">Equilateral triangle</label>
+                <label for="option-2"><input type="radio" name="question-5" id="option-2" value="Isosceles triangle">Isosceles triangle</label>
+            </div>
+            <div class="question-container">
+                <p>If one angle of a triangle is obtuse, then which one of the following is the possible measure of remaining angles?</p>
+                <label for="option-1"><input type="radio" name="question-6" id="option-1" value="100°">100°</label>
+                <label for="option-2"><input type="radio" name="question-6" id="option-2" value="85°">85°</label>
+            </div>
+            <div class="question-container">
+                <p>If the largest angle in a triangle is 70°, what is the least possible value of the smallest angle of the triangle?</p>
+                <label for="option-1"><input type="radio" name="question-7" id="option-1" value="30°">30°</label>
+                <label for="option-2"><input type="radio" name="question-7" id="option-2" value="10°">10°</label>
+            </div>
+            <div class="question-container">
+                <p>The perimeter of scalene triangle with sides a, b, c is</p>
+                <label for="option-1"><input type="radio" name="question-8" id="option-1" value="a + b + c">a + b + c</label>
+                <label for="option-2"><input type="radio" name="question-8" id="option-2" value="2a">2a</label>
+                <label for="option-3"><input type="radio" name="question-8" id="option-3" value="None of these">None of these</label>
+            </div>
+            <div class="question-container">
+                <p>A scalene triangle has ___ lines of symmetry</p>
+                <label for="option-1"><input type="radio" name="question-9" id="option-1" value="two">two</label>
+                <label for="option-2"><input type="radio" name="question-9" id="option-2" value="no">no</label>
+                <label for="option-3"><input type="radio" name="question-9" id="option-3" value="15">15</label>
+            </div>
+            <div class="question-container">
+                <p>There is a right triangle PQR where: angle Q = 90°; angle P = angle R. What is the measure of angles P and R?</p>
+                <label for="option-1"><input type="radio" name="question-10" id="option-1" value="85°">85°</label>
+                <label for="option-2"><input type="radio" name="question-10" id="option-2" value="65°">65°</label>
+                <label for="option-3"><input type="radio" name="question-10" id="option-3" value="45°">45°</label>
+            </div>
+        </form>
+        <button class="submit-form">Submit Answers</button>
+        <p id="msg"></p>
+    </div>
+
+    <script src="./quiz-triangle.js"></script>
+</body>
+</html>
